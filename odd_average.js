@@ -2,10 +2,13 @@
  give me the average in the odd numbers of Array
 */
 function oddAverage(numbers) {
+      const odd = [];
       for(const number of numbers){
             if(number % 2 === 1){
-                  console.log(number);
+                  // console.log(number);
+                  odd.push(number);
       }
+      console.log(odd)
 }
 }
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];

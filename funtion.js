@@ -37,3 +37,9 @@ function multiply(num1, num2){
 }
 const result = multiply(5, 6);
 console.log(`The multiply of 5 and 6 is: ${result}`);
+
+// normal function
+function sayHello(){
+      return "Hello, World!";
+}
+let greeting = sayHello();
