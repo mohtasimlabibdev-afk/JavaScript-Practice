@@ -30,3 +30,10 @@ function add(num1, num2){
 add(4, 6);
 add(14, 6);
 add(24, 6);
+
+// multiply two numbers
+function multiply(num1, num2){
+      return num1 * num2;
+}
+const result = multiply(5, 6);
+console.log(`The multiply of 5 and 6 is: ${result}`);
